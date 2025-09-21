@@ -1,18 +1,18 @@
 import psycopg2
 
-# Database connection
+# database connection
 conn = psycopg2.connect(
-    dbname="brazilian",   # your database name
-    user="postgres",      # your postgres username
-    password="0000",  # your password
-    host="localhost",     # keep this if local
-    port="5432"           # default postgres port
+    dbname="brazilian",   
+    user="postgres",     
+    password="0000",  
+    host="localhost",     
+    port="5432"          
 )
 
-# Create a cursor
+# create a cursor
 cur = conn.cursor()
 
-# Example queries
+# example queries like from previous task 4 
 queries = [
     "-- 1. First 10 customers",
     "SELECT * FROM customers LIMIT 10;",
@@ -28,7 +28,7 @@ queries = [
     "SELECT order_status, COUNT(*) FROM orders GROUP BY order_status;"
 ]
 
-# Run queries
+# running  queries
 for i in range(0, len(queries), 2):  # step over comments + query
     comment = queries[i]
     query = queries[i+1]

@@ -39,6 +39,6 @@ for i in range(0, len(queries), 2):  # step over comments + query
         print(row)
     print("-" * 40)
 
-# Clean up
+# cleaning up
 cur.close()
 conn.close()

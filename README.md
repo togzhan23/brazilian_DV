@@ -59,7 +59,7 @@ CREATE DATABASE brazilian;
 \copy orders FROM '/path/to/olist_orders_dataset.csv' DELIMITER ',' CSV HEADER;
 ``` 
 (in y case /Users/myuser/Desktop/brazilian_ecommerce/olist_orders_dataset.csv'
-DELIMITER ','  )
+DELIMITER ',' CSV HEADER; )
 - Repeat for all 9 datasets.
 
 ---

@@ -24,7 +24,6 @@ This repository contains:
 
 ## Screenshot & **ERD diagram** and **visualizations** for understanding table relationships
 <img width="806" height="624" alt="image" src="https://github.com/user-attachments/assets/028955c2-735e-49a0-9881-b6254ff24e10" />
-<img width="1412" height="793" alt="image" src="https://github.com/user-attachments/assets/0d0e9feb-0b49-4742-8edd-a23d17640091" />
 
 
 
